@@ -1,0 +1,29 @@
+schema {
+    query: Query
+    mutation: Mutation
+}
+
+type Query {
+    user (
+        userId: ID
+        name: String
+        email: String
+    ) : User!
+
+    accounts (
+        userId: ID
+        accountNumber: String
+        status: AccountStatus
+    ) : [Account]!
+
+    account (
+        userId: ID
+        accountNumber: String
+        status: AccountStatus
+    ) : Account!
+}
+
+type Mutation {
+    save (input: AccountInput!) : Account!
+    withdrawal (input: AccountInput!) : Account!
+}

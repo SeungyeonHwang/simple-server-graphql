@@ -1,0 +1,8 @@
+io/oenomel/stonk/app/account/AccountServiceTests.java
+ io.oenomel.stonk.app.account.AccountServiceTests
+io/oenomel/stonk/common/graphql/MutationTests.java
+ io.oenomel.stonk.common.graphql.MutationTests
+io/oenomel/stonk/app/user/UserResolverTests.java
+ io.oenomel.stonk.app.user.UserResolverTests
+io/oenomel/stonk/StonkApplicationTests.java
+ io.oenomel.stonk.StonkApplicationTests
